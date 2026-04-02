@@ -23,6 +23,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # 注册 Pages 站点并写入并发元数据；缺少时 deploy 可能 404
+      - uses: actions/configure-pages@v4
+
       - uses: actions/setup-node@v4
         with:
           node-version: 20
