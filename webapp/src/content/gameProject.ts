@@ -85,7 +85,7 @@ export type GameProject = {
 
 export const gameProject: GameProject = {
   slug: 'my-dnd-project',
-  title: 'My DND Project（Unity 原型）',
+  title: 'My DND Project',
   subtitle: '已实现战斗回合、技能系统、任务系统、背包装备与宝箱掉落的可玩版本',
   hero: {
     coverImageUrl: imgTown,
